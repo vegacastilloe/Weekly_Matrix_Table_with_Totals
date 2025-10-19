@@ -119,7 +119,7 @@ print(tabulate(df_final, headers='keys', tablefmt='fancy_grid'))
 
 ### 💾 Exportación opcional
 ```python
-# df_input.to_excel("weekly_matrix_table_output.xlsx", index=False)
+# df_final.to_excel("weekly_matrix_table_output.xlsx", index=False)
 ```
 ---
 ### 📄 Licencia
